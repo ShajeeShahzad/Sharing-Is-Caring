@@ -1,0 +1,41 @@
+body {
+    font-family: 'Source Code Pro' ;
+    background-color: darkviolet
+}
+
+.content {
+    margin:auto; /* this will center horizontally */
+    max-width: 40em; /* 640px */
+    padding: 0 1em; /* no padding top and bottom 1em left and right */
+}
+
+html, body {
+    height: 100%;
+}
+
+.full {
+    height: 100%;
+    border: 1px solid grey;
+    background-image: url(panda bamboo.jpg);  
+    background-size: cover;
+    /*background-size: contain;*/
+    background-position: center;
+    background-attachment: fixed; /* this is the parralax magic */
+}
+
+#panda {
+    background-image: url(panda%20background.jpg);  
+}
+
+#panda2 {
+     background-image: url(http://media-2.web.britannica.com/eb-media/80/150980-004-EE46999B.jpg);  
+}
+
+#panda3 {
+    width: 300px
+        margin-left: -150px;
+        margin-top: -150px;
+        position: absolute;
+    left: 50%;
+    top: 50%;
+}
